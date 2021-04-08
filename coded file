@@ -1,0 +1,85 @@
+<html>
+<head>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="../bootstrap-4.5.0-dist\css\bootstrap.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<style type="text/css">
+	.card-footer{
+		padding-top: 500px;
+		text-align: center;
+		color: white;
+	}
+</style>
+</head>
+<body>
+<center>
+<div class="container-fluid">
+	<div class="btn-group-horizontal text-right">
+			  <a class="btn btn-link" href="#"><i class="fa fa-home fa-fw" aria-hidden="true"></i>&nbsp; Home</a>
+			  <a class="btn btn-link" href="#"><i class="fa fa-book fa-fw" aria-hidden="true"></i>&nbsp; Library</a>
+			  <a class="btn btn-link" href="#"><i class="fa fa-pencil fa-fw" aria-hidden="true"></i>&nbsp; Applications</a>
+			  <a class="btn btn-link" href="#"><i class="fa fa-cog fa-fw" aria-hidden="true"></i>&nbsp; Settings</a>
+	</div>
+</center><br>
+<div class="container" style="border: 2px solid black;border-radius:10px;max-height:99%; ">
+	<div class="row" style="height: 100%;">
+		<div class="col-4">
+		<br>
+		<h5 class="text-center">Get started with your free account</h5><br>
+		<p>
+			<a href="https://www.gmailaccount.com" class="btn btn-block btn-google" style="background-color:red;color:white"><i class="fa fa-google-plus-square fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;Login via Gmail</a>
+			<a href="https://facebooklogin.com" class="btn btn-block btn-facebook" style="background-color:blue;color: white"><i class="fa fa-facebook-official fa-lg" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;&nbsp;Login via facebook</a>
+		</p>
+		<table>
+			<tr>
+			<td rowspan=3></td>
+			</tr>
+			<tr>
+			<td><hr style="width:160px;"></td>
+			<td><font size="2px">OR</font></td>
+			<td><hr style="width:160px;"></td>
+			</tr>
+		</table>
+		<br>
+			<form>
+				<div class="form-group input-group" style="color: black;">
+					<div class="input-group-prepend">
+						<span class="input-group-text"><i class="fa fa-user" aria-hidden="true"></i></span>
+					</div>
+					<input type="text" class="form-control" placeholder="Username*" name="">
+				</div>
+				<div class="form-group input-group" style="color: black;">
+					<div class="input-group-prepend">
+						<span class="input-group-text"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+					</div>
+					<input type="email" class="form-control" placeholder="E-mail*" name="">
+				</div>
+				<div class="form-group input-group" style="color: black;">
+					<div class="input-group-prepend">
+						<span class="input-group-text"><i class="fa fa-phone" aria-hidden="true"></i></span>
+					</div>
+					<input type="email" class="form-control" placeholder="Mobile no.*" name="">
+				</div>
+				<div class="form-group input-group" style="color: black;">
+					<div class="input-group-prepend">
+						<span class="input-group-text"><i class="fa fa-lock" aria-hidden="true"></i></span>
+					</div>
+					<input type="password" class="form-control" placeholder="Password*" name="">
+				</div>
+				<div class="form-group input-group" style="color: black;">
+					<div class="input-group-prepend">
+						<span class="input-group-text"><i class="fa fa-lock" aria-hidden="true"></i></span>
+					</div>
+					<input type="password" class="form-control" placeholder="Confirm Password*" name="">
+				</div><br><br>
+				<div class="form-group">
+					<button type="button" name="Submit" class="btn btn-primary btn-block">Create Account</button>
+				</div>
+			</form>
+			<p class="text-center">Have an account?<a href="#">Log in</a>
+		</div>
+    </div>
+</div>
+</div>
+</body>
+</html>
